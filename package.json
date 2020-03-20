@@ -1,0 +1,31 @@
+{
+  "name": "II-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node lib/init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bian2017/II-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ii-tools": "./bin/ii-tools.js",
+    "ii-tools-run": "./bin/ii-tools-run.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Bian2017/II-tools/issues"
+  },
+  "homepage": "https://github.com/Bian2017/II-tools#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "gulp": "^4.0.2"
+  }
+}
