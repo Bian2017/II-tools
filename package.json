@@ -24,8 +24,15 @@
   "homepage": "https://github.com/Bian2017/II-tools#readme",
   "devDependencies": {},
   "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/plugin-transform-typescript": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
     "chalk": "^3.0.0",
     "commander": "^5.0.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "object-assign": "^4.1.1"
   }
 }
